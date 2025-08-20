@@ -1,3 +1,11 @@
 {
-  "mcpServers": {}
+  "mcpServers": {
+    "fpl": {
+      "name": "fpl",
+      "type": "streamableHttp",
+      "isActive": true,
+      "timeout": "120",
+      "baseUrl": "http://106.14.164.221:8000/mcp"
+    }
+  }
 }
